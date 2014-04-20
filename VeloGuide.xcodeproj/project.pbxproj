@@ -1,0 +1,763 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
+		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
+		3B7F19C110D1BE7E00AFD7FB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B7F19C010D1BE7E00AFD7FB /* CoreLocation.framework */; };
+		3B85125210CF0CCD004F4F1F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B85125110CF0CCD004F4F1F /* QuartzCore.framework */; };
+		AF699B9C11D1702000DC3951 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AF699B9B11D1702000DC3951 /* libz.dylib */; };
+		BF14E4BD14241A43001C333C /* Chicago-bikeroutes.kml in Resources */ = {isa = PBXBuildFile; fileRef = BF14E4BC14241A43001C333C /* Chicago-bikeroutes.kml */; };
+		BF29CC7412AEFDC400719974 /* Locate.png in Resources */ = {isa = PBXBuildFile; fileRef = BF29CC7312AEFDC400719974 /* Locate.png */; };
+		BF2A5EFE14EB01BE0064CBD4 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2A5EFD14EB01BE0064CBD4 /* iTunesArtwork.png */; };
+		BF33FE521348D3FD004EA381 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF33FE511348D3FD004EA381 /* MapKit.framework */; };
+		BF33FE69134925F4004EA381 /* KMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BF33FE68134925F4004EA381 /* KMLParser.m */; };
+		BF4B342A13B8DD540018408C /* VeloGuideAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4B342913B8DD540018408C /* VeloGuideAppDelegate.m */; };
+		BF4B84B513944B82001A54C1 /* veloguide.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4B84B413944B82001A54C1 /* veloguide.png */; };
+		BF59157C13C2354F007B6208 /* bicycle_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BF59157B13C2354F007B6208 /* bicycle_icon.png */; };
+		BF59159213C235D5007B6208 /* NYC-Bike.kml in Resources */ = {isa = PBXBuildFile; fileRef = BF59158613C235D5007B6208 /* NYC-Bike.kml */; };
+		BF59159513C235D5007B6208 /* bike_parking.kml in Resources */ = {isa = PBXBuildFile; fileRef = BF59158A13C235D5007B6208 /* bike_parking.kml */; };
+		BF59159913C2396F007B6208 /* parking-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BF59159813C2396F007B6208 /* parking-icon.png */; };
+		BF5CF13313D5E565007CA0F5 /* chicago-bike-law.html in Resources */ = {isa = PBXBuildFile; fileRef = BF5CF13213D5E565007CA0F5 /* chicago-bike-law.html */; };
+		BF5CF13513D5E8D4007CA0F5 /* veloguide-legal.html in Resources */ = {isa = PBXBuildFile; fileRef = BF5CF13413D5E8D4007CA0F5 /* veloguide-legal.html */; };
+		BF5CF13713D5EB42007CA0F5 /* sf-bike-law.html in Resources */ = {isa = PBXBuildFile; fileRef = BF5CF13613D5EB42007CA0F5 /* sf-bike-law.html */; };
+		BF5CF13913D5EB55007CA0F5 /* nyc-bike-law.html in Resources */ = {isa = PBXBuildFile; fileRef = BF5CF13813D5EB55007CA0F5 /* nyc-bike-law.html */; };
+		BF7588E41249263100EF461B /* veloguide-about.html in Resources */ = {isa = PBXBuildFile; fileRef = BF7588BE1249263100EF461B /* veloguide-about.html */; };
+		BF75894712492AEE00EF461B /* About.m in Sources */ = {isa = PBXBuildFile; fileRef = BF75894512492AEE00EF461B /* About.m */; };
+		BF75894812492AEE00EF461B /* About.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF75894612492AEE00EF461B /* About.xib */; };
+		BF75895912493FAB00EF461B /* MyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF75895812493FAB00EF461B /* MyTabBarController.m */; };
+		BF7F59ED124135E500890B70 /* helmet.png in Resources */ = {isa = PBXBuildFile; fileRef = BF7F59EC124135E500890B70 /* helmet.png */; };
+		BF7F59EF1241360B00890B70 /* bikeicon.png in Resources */ = {isa = PBXBuildFile; fileRef = BF7F59EE1241360B00890B70 /* bikeicon.png */; };
+		BF7F59F11241361500890B70 /* icon_legend.png in Resources */ = {isa = PBXBuildFile; fileRef = BF7F59F01241361500890B70 /* icon_legend.png */; };
+		BF7FD51613D48FAE00127FE0 /* PDXBIKE3.kml in Resources */ = {isa = PBXBuildFile; fileRef = BF7FD51513D48FAE00127FE0 /* PDXBIKE3.kml */; };
+		BF877245122ED30A00DF2212 /* marker.png in Resources */ = {isa = PBXBuildFile; fileRef = BF877244122ED30A00DF2212 /* marker.png */; };
+		BF8D4FD013BB7D9000E02126 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF8D4FCF13BB7D9000E02126 /* Icon@2x.png */; };
+		BF8D4FD213BB7D9900E02126 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BF8D4FD113BB7D9900E02126 /* Icon.png */; };
+		BF8D4FD413BB7DFB00E02126 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BF8D4FD313BB7DFB00E02126 /* Default.png */; };
+		BF8D4FD613BB7E0E00E02126 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF8D4FD513BB7E0E00E02126 /* Default@2x.png */; };
+		BF963B0112C96D4C00CA0A28 /* veloguide-legend.html in Resources */ = {isa = PBXBuildFile; fileRef = BF963B0012C96D4C00CA0A28 /* veloguide-legend.html */; };
+		BF963B0412C96D6600CA0A28 /* veloguide-safety_v2.html in Resources */ = {isa = PBXBuildFile; fileRef = BF963B0312C96D6600CA0A28 /* veloguide-safety_v2.html */; };
+		BF9A075012ED0F6F00BE06C6 /* 2si_against_traffic.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9A072E12ED0F6F00BE06C6 /* 2si_against_traffic.png */; };
+		BF9A075112ED0F6F00BE06C6 /* 2si_night_ride.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9A072F12ED0F6F00BE06C6 /* 2si_night_ride.png */; };
+		BF9A075212ED0F6F00BE06C6 /* 2si_turning_left.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9A073012ED0F6F00BE06C6 /* 2si_turning_left.png */; };
+		BF9A075412ED0F6F00BE06C6 /* dotted-line.gif in Resources */ = {isa = PBXBuildFile; fileRef = BF9A073212ED0F6F00BE06C6 /* dotted-line.gif */; };
+		BF9A075512ED0F6F00BE06C6 /* legend-bike-and-ped-trail.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9A073312ED0F6F00BE06C6 /* legend-bike-and-ped-trail.png */; };
+		BF9A075612ED0F6F00BE06C6 /* legend-bike-lane-busy-street.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9A073412ED0F6F00BE06C6 /* legend-bike-lane-busy-street.png */; };
+		BF9A075712ED0F6F00BE06C6 /* legend-bike-shop.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9A073512ED0F6F00BE06C6 /* legend-bike-shop.png */; };
+		BF9A075812ED0F6F00BE06C6 /* legend-caution-area.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9A073612ED0F6F00BE06C6 /* legend-caution-area.png */; };
+		BF9A075912ED0F6F00BE06C6 /* legend-elev-marker.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9A073712ED0F6F00BE06C6 /* legend-elev-marker.png */; };
+		BF9A075A12ED0F6F00BE06C6 /* legend-high-traffic-street.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9A073812ED0F6F00BE06C6 /* legend-high-traffic-street.png */; };
+		BF9A075B12ED0F6F00BE06C6 /* legend-light-rail.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9A073912ED0F6F00BE06C6 /* legend-light-rail.png */; };
+		BF9A075C12ED0F6F00BE06C6 /* legend-low-traffic-street.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9A073A12ED0F6F00BE06C6 /* legend-low-traffic-street.png */; };
+		BF9A075D12ED0F6F00BE06C6 /* legend-main-bikeway.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9A073B12ED0F6F00BE06C6 /* legend-main-bikeway.png */; };
+		BF9A075E12ED0F6F00BE06C6 /* legend-no-bike-lane-mod-street.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9A073C12ED0F6F00BE06C6 /* legend-no-bike-lane-mod-street.png */; };
+		BF9A075F12ED0F6F00BE06C6 /* legend-one-way.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9A073D12ED0F6F00BE06C6 /* legend-one-way.png */; };
+		BF9A076012ED0F6F00BE06C6 /* legend-park.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9A073E12ED0F6F00BE06C6 /* legend-park.png */; };
+		BF9A076112ED0F6F00BE06C6 /* legend-RR-tracks.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9A073F12ED0F6F00BE06C6 /* legend-RR-tracks.png */; };
+		BF9A076212ED0F6F00BE06C6 /* legend-transit-center.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9A074012ED0F6F00BE06C6 /* legend-transit-center.png */; };
+		BF9A076312ED0F6F00BE06C6 /* legend-uphill.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9A074112ED0F6F00BE06C6 /* legend-uphill.png */; };
+		BF9A076512ED0F6F00BE06C6 /* si_avoid_hazard.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9A074312ED0F6F00BE06C6 /* si_avoid_hazard.png */; };
+		BF9A076612ED0F6F00BE06C6 /* si_cycletrack.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9A074412ED0F6F00BE06C6 /* si_cycletrack.png */; };
+		BF9A076712ED0F6F00BE06C6 /* si_detection.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9A074512ED0F6F00BE06C6 /* si_detection.png */; };
+		BF9A076812ED0F6F00BE06C6 /* si_hand-signals.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9A074612ED0F6F00BE06C6 /* si_hand-signals.png */; };
+		BF9A076912ED0F6F00BE06C6 /* si_helmet.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9A074712ED0F6F00BE06C6 /* si_helmet.png */; };
+		BF9A076A12ED0F6F00BE06C6 /* si_middle_of_lane.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9A074812ED0F6F00BE06C6 /* si_middle_of_lane.png */; };
+		BF9A076B12ED0F6F00BE06C6 /* si_obey_signs.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9A074912ED0F6F00BE06C6 /* si_obey_signs.png */; };
+		BF9A076C12ED0F6F00BE06C6 /* si_scan_behind.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9A074A12ED0F6F00BE06C6 /* si_scan_behind.png */; };
+		BF9A076D12ED0F6F00BE06C6 /* si_sidewalks.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9A074B12ED0F6F00BE06C6 /* si_sidewalks.png */; };
+		BF9A076E12ED0F6F00BE06C6 /* si_watch_pullout.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9A074C12ED0F6F00BE06C6 /* si_watch_pullout.png */; };
+		BF9A076F12ED0F6F00BE06C6 /* si_weaver.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9A074D12ED0F6F00BE06C6 /* si_weaver.png */; };
+		BF9A077012ED0F6F00BE06C6 /* si-BikeBoxes.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9A074E12ED0F6F00BE06C6 /* si-BikeBoxes.png */; };
+		BF9A077112ED0F6F00BE06C6 /* si-pass-right.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9A074F12ED0F6F00BE06C6 /* si-pass-right.png */; };
+		BF9BB951174434FB0093CEE9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9BB950174434FB0093CEE9 /* Default-568h@2x.png */; };
+		BF9DBB3F150978CC00E7A552 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9DBB3E150978CC00E7A552 /* Accounts.framework */; };
+		BF9DBB41150978D800E7A552 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9DBB40150978D800E7A552 /* Twitter.framework */; };
+		BF9DBB43150BD81700E7A552 /* poi.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9DBB42150BD81700E7A552 /* poi.png */; };
+		BF9DBB46150C02A700E7A552 /* Placemark.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9DBB45150C02A700E7A552 /* Placemark.m */; };
+		BFB570F413B952B8006F78B2 /* veloguide.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BFB570F213B952B8006F78B2 /* veloguide.xcdatamodeld */; };
+		BFC836EB13C2642500E53E79 /* law.png in Resources */ = {isa = PBXBuildFile; fileRef = BFC836EA13C2642500E53E79 /* law.png */; };
+		BFC836F213C26BEE00E53E79 /* pdx-bike-law.html in Resources */ = {isa = PBXBuildFile; fileRef = BFC836F113C26BEE00E53E79 /* pdx-bike-law.html */; };
+		BFC836F613C2752700E53E79 /* legal-nav.png in Resources */ = {isa = PBXBuildFile; fileRef = BFC836F513C2752700E53E79 /* legal-nav.png */; };
+		BFC836FE13C27B0900E53E79 /* Legal.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC836FC13C27B0800E53E79 /* Legal.m */; };
+		BFC836FF13C27B0900E53E79 /* Legal.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFC836FD13C27B0800E53E79 /* Legal.xib */; };
+		BFCA670E13C3877F001FC69C /* searchWebView.js in Resources */ = {isa = PBXBuildFile; fileRef = BFCA670D13C3877F001FC69C /* searchWebView.js */; };
+		BFCDBB661228282F00DD17DC /* MapView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCDBB641228282F00DD17DC /* MapView.m */; };
+		BFCDBB671228282F00DD17DC /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFCDBB651228282F00DD17DC /* MapView.xib */; };
+		BFD6FF1C13D4A21A00B4CCDA /* SF-Bike-Routes.kml in Resources */ = {isa = PBXBuildFile; fileRef = BFD6FF1B13D4A21A00B4CCDA /* SF-Bike-Routes.kml */; };
+		BFF7EABB13D3AB8B00F369F0 /* Chicago-Bike-Parking.kml in Resources */ = {isa = PBXBuildFile; fileRef = BFF7EABA13D3AB8B00F369F0 /* Chicago-Bike-Parking.kml */; };
+		BFF7EABE13D3ABA100F369F0 /* NYC-Bike-Parking.kml in Resources */ = {isa = PBXBuildFile; fileRef = BFF7EABC13D3ABA100F369F0 /* NYC-Bike-Parking.kml */; };
+		BFF7EABF13D3ABA100F369F0 /* NYC-Bike2.kml in Resources */ = {isa = PBXBuildFile; fileRef = BFF7EABD13D3ABA100F369F0 /* NYC-Bike2.kml */; };
+		BFFE9C5112403D6700016C15 /* Legend.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFE9C4F12403D6700016C15 /* Legend.m */; };
+		BFFE9C5212403D6700016C15 /* Legend.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFFE9C5012403D6700016C15 /* Legend.xib */; };
+		BFFE9C681240467A00016C15 /* Safety.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFE9C661240467A00016C15 /* Safety.m */; };
+		BFFE9C691240467A00016C15 /* Safety.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFFE9C671240467A00016C15 /* Safety.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AB4B0D9B1048005BE974 /* VeloGuide_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VeloGuide_Prefix.pch; sourceTree = "<group>"; };
+		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B7F19C010D1BE7E00AFD7FB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3B85125110CF0CCD004F4F1F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8D1107310486CEB800E47090 /* veloguide-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "veloguide-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		AF699B9B11D1702000DC3951 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		BF14E4BC14241A43001C333C /* Chicago-bikeroutes.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Chicago-bikeroutes.kml"; sourceTree = "<group>"; };
+		BF29CC7312AEFDC400719974 /* Locate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Locate.png; sourceTree = "<group>"; };
+		BF2A5EFD14EB01BE0064CBD4 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		BF33FE4F1348D199004EA381 /* VeloGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeloGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF33FE511348D3FD004EA381 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BF33FE67134925E7004EA381 /* KMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMLParser.h; sourceTree = "<group>"; };
+		BF33FE68134925F4004EA381 /* KMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMLParser.m; sourceTree = "<group>"; };
+		BF4B342813B8DD4B0018408C /* VeloGuideAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VeloGuideAppDelegate.h; sourceTree = "<group>"; };
+		BF4B342913B8DD540018408C /* VeloGuideAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VeloGuideAppDelegate.m; sourceTree = "<group>"; };
+		BF4B84B413944B82001A54C1 /* veloguide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = veloguide.png; sourceTree = "<group>"; };
+		BF59157B13C2354F007B6208 /* bicycle_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bicycle_icon.png; sourceTree = "<group>"; };
+		BF59158613C235D5007B6208 /* NYC-Bike.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NYC-Bike.kml"; sourceTree = "<group>"; };
+		BF59158A13C235D5007B6208 /* bike_parking.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = bike_parking.kml; sourceTree = "<group>"; };
+		BF59159813C2396F007B6208 /* parking-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "parking-icon.png"; sourceTree = "<group>"; };
+		BF5CF13213D5E565007CA0F5 /* chicago-bike-law.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "chicago-bike-law.html"; sourceTree = "<group>"; };
+		BF5CF13413D5E8D4007CA0F5 /* veloguide-legal.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "veloguide-legal.html"; sourceTree = "<group>"; };
+		BF5CF13613D5EB42007CA0F5 /* sf-bike-law.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "sf-bike-law.html"; sourceTree = "<group>"; };
+		BF5CF13813D5EB55007CA0F5 /* nyc-bike-law.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "nyc-bike-law.html"; sourceTree = "<group>"; };
+		BF7588BE1249263100EF461B /* veloguide-about.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "veloguide-about.html"; sourceTree = "<group>"; };
+		BF75894412492AEE00EF461B /* About.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = About.h; sourceTree = "<group>"; };
+		BF75894512492AEE00EF461B /* About.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = About.m; sourceTree = "<group>"; };
+		BF75894612492AEE00EF461B /* About.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = About.xib; sourceTree = "<group>"; };
+		BF75895712493FAB00EF461B /* MyTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBarController.h; sourceTree = "<group>"; };
+		BF75895812493FAB00EF461B /* MyTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBarController.m; sourceTree = "<group>"; };
+		BF7F59EC124135E500890B70 /* helmet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = helmet.png; sourceTree = "<group>"; };
+		BF7F59EE1241360B00890B70 /* bikeicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bikeicon.png; sourceTree = "<group>"; };
+		BF7F59F01241361500890B70 /* icon_legend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_legend.png; sourceTree = "<group>"; };
+		BF7FD51513D48FAE00127FE0 /* PDXBIKE3.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PDXBIKE3.kml; sourceTree = "<group>"; };
+		BF877244122ED30A00DF2212 /* marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marker.png; sourceTree = "<group>"; };
+		BF8D4FCF13BB7D9000E02126 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		BF8D4FD113BB7D9900E02126 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		BF8D4FD313BB7DFB00E02126 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BF8D4FD513BB7E0E00E02126 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BF963B0012C96D4C00CA0A28 /* veloguide-legend.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "veloguide-legend.html"; sourceTree = "<group>"; };
+		BF963B0312C96D6600CA0A28 /* veloguide-safety_v2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "veloguide-safety_v2.html"; sourceTree = "<group>"; };
+		BF9A072E12ED0F6F00BE06C6 /* 2si_against_traffic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2si_against_traffic.png; sourceTree = "<group>"; };
+		BF9A072F12ED0F6F00BE06C6 /* 2si_night_ride.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2si_night_ride.png; sourceTree = "<group>"; };
+		BF9A073012ED0F6F00BE06C6 /* 2si_turning_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2si_turning_left.png; sourceTree = "<group>"; };
+		BF9A073212ED0F6F00BE06C6 /* dotted-line.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "dotted-line.gif"; sourceTree = "<group>"; };
+		BF9A073312ED0F6F00BE06C6 /* legend-bike-and-ped-trail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "legend-bike-and-ped-trail.png"; sourceTree = "<group>"; };
+		BF9A073412ED0F6F00BE06C6 /* legend-bike-lane-busy-street.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "legend-bike-lane-busy-street.png"; sourceTree = "<group>"; };
+		BF9A073512ED0F6F00BE06C6 /* legend-bike-shop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "legend-bike-shop.png"; sourceTree = "<group>"; };
+		BF9A073612ED0F6F00BE06C6 /* legend-caution-area.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "legend-caution-area.png"; sourceTree = "<group>"; };
+		BF9A073712ED0F6F00BE06C6 /* legend-elev-marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "legend-elev-marker.png"; sourceTree = "<group>"; };
+		BF9A073812ED0F6F00BE06C6 /* legend-high-traffic-street.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "legend-high-traffic-street.png"; sourceTree = "<group>"; };
+		BF9A073912ED0F6F00BE06C6 /* legend-light-rail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "legend-light-rail.png"; sourceTree = "<group>"; };
+		BF9A073A12ED0F6F00BE06C6 /* legend-low-traffic-street.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "legend-low-traffic-street.png"; sourceTree = "<group>"; };
+		BF9A073B12ED0F6F00BE06C6 /* legend-main-bikeway.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "legend-main-bikeway.png"; sourceTree = "<group>"; };
+		BF9A073C12ED0F6F00BE06C6 /* legend-no-bike-lane-mod-street.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "legend-no-bike-lane-mod-street.png"; sourceTree = "<group>"; };
+		BF9A073D12ED0F6F00BE06C6 /* legend-one-way.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "legend-one-way.png"; sourceTree = "<group>"; };
+		BF9A073E12ED0F6F00BE06C6 /* legend-park.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "legend-park.png"; sourceTree = "<group>"; };
+		BF9A073F12ED0F6F00BE06C6 /* legend-RR-tracks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "legend-RR-tracks.png"; sourceTree = "<group>"; };
+		BF9A074012ED0F6F00BE06C6 /* legend-transit-center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "legend-transit-center.png"; sourceTree = "<group>"; };
+		BF9A074112ED0F6F00BE06C6 /* legend-uphill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "legend-uphill.png"; sourceTree = "<group>"; };
+		BF9A074312ED0F6F00BE06C6 /* si_avoid_hazard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = si_avoid_hazard.png; sourceTree = "<group>"; };
+		BF9A074412ED0F6F00BE06C6 /* si_cycletrack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = si_cycletrack.png; sourceTree = "<group>"; };
+		BF9A074512ED0F6F00BE06C6 /* si_detection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = si_detection.png; sourceTree = "<group>"; };
+		BF9A074612ED0F6F00BE06C6 /* si_hand-signals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "si_hand-signals.png"; sourceTree = "<group>"; };
+		BF9A074712ED0F6F00BE06C6 /* si_helmet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = si_helmet.png; sourceTree = "<group>"; };
+		BF9A074812ED0F6F00BE06C6 /* si_middle_of_lane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = si_middle_of_lane.png; sourceTree = "<group>"; };
+		BF9A074912ED0F6F00BE06C6 /* si_obey_signs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = si_obey_signs.png; sourceTree = "<group>"; };
+		BF9A074A12ED0F6F00BE06C6 /* si_scan_behind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = si_scan_behind.png; sourceTree = "<group>"; };
+		BF9A074B12ED0F6F00BE06C6 /* si_sidewalks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = si_sidewalks.png; sourceTree = "<group>"; };
+		BF9A074C12ED0F6F00BE06C6 /* si_watch_pullout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = si_watch_pullout.png; sourceTree = "<group>"; };
+		BF9A074D12ED0F6F00BE06C6 /* si_weaver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = si_weaver.png; sourceTree = "<group>"; };
+		BF9A074E12ED0F6F00BE06C6 /* si-BikeBoxes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "si-BikeBoxes.png"; sourceTree = "<group>"; };
+		BF9A074F12ED0F6F00BE06C6 /* si-pass-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "si-pass-right.png"; sourceTree = "<group>"; };
+		BF9BB950174434FB0093CEE9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BF9DBB3E150978CC00E7A552 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		BF9DBB40150978D800E7A552 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		BF9DBB42150BD81700E7A552 /* poi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poi.png; sourceTree = "<group>"; };
+		BF9DBB44150C02A600E7A552 /* Placemark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Placemark.h; sourceTree = "<group>"; };
+		BF9DBB45150C02A700E7A552 /* Placemark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Placemark.m; sourceTree = "<group>"; };
+		BFB570F313B952B8006F78B2 /* veloguide.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = veloguide.xcdatamodel; sourceTree = "<group>"; };
+		BFC836EA13C2642500E53E79 /* law.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = law.png; sourceTree = "<group>"; };
+		BFC836F113C26BEE00E53E79 /* pdx-bike-law.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "pdx-bike-law.html"; path = "../../Html/pdx-bike-law.html"; sourceTree = "<group>"; };
+		BFC836F513C2752700E53E79 /* legal-nav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "legal-nav.png"; sourceTree = "<group>"; };
+		BFC836FB13C27B0800E53E79 /* Legal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Legal.h; path = ../VeloGuide.xcodeproj/Legal.h; sourceTree = "<group>"; };
+		BFC836FC13C27B0800E53E79 /* Legal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Legal.m; path = ../VeloGuide.xcodeproj/Legal.m; sourceTree = "<group>"; };
+		BFC836FD13C27B0800E53E79 /* Legal.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Legal.xib; path = ../VeloGuide.xcodeproj/Legal.xib; sourceTree = "<group>"; };
+		BFCA670D13C3877F001FC69C /* searchWebView.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = searchWebView.js; sourceTree = "<group>"; };
+		BFCDBB631228282F00DD17DC /* MapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapView.h; sourceTree = "<group>"; };
+		BFCDBB641228282F00DD17DC /* MapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapView.m; sourceTree = "<group>"; };
+		BFCDBB651228282F00DD17DC /* MapView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapView.xib; sourceTree = "<group>"; };
+		BFD6FF1B13D4A21A00B4CCDA /* SF-Bike-Routes.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "SF-Bike-Routes.kml"; sourceTree = "<group>"; };
+		BFF7EABA13D3AB8B00F369F0 /* Chicago-Bike-Parking.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Chicago-Bike-Parking.kml"; sourceTree = "<group>"; };
+		BFF7EABC13D3ABA100F369F0 /* NYC-Bike-Parking.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NYC-Bike-Parking.kml"; sourceTree = "<group>"; };
+		BFF7EABD13D3ABA100F369F0 /* NYC-Bike2.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NYC-Bike2.kml"; sourceTree = "<group>"; };
+		BFFE9C4E12403D6700016C15 /* Legend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Legend.h; sourceTree = "<group>"; };
+		BFFE9C4F12403D6700016C15 /* Legend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Legend.m; sourceTree = "<group>"; };
+		BFFE9C5012403D6700016C15 /* Legend.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Legend.xib; sourceTree = "<group>"; };
+		BFFE9C651240467A00016C15 /* Safety.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Safety.h; sourceTree = "<group>"; };
+		BFFE9C661240467A00016C15 /* Safety.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Safety.m; sourceTree = "<group>"; };
+		BFFE9C671240467A00016C15 /* Safety.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Safety.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9DBB41150978D800E7A552 /* Twitter.framework in Frameworks */,
+				BF9DBB3F150978CC00E7A552 /* Accounts.framework in Frameworks */,
+				BF33FE521348D3FD004EA381 /* MapKit.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
+				3B85125210CF0CCD004F4F1F /* QuartzCore.framework in Frameworks */,
+				3B7F19C110D1BE7E00AFD7FB /* CoreLocation.framework in Frameworks */,
+				AF699B9C11D1702000DC3951 /* libz.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BF4B342813B8DD4B0018408C /* VeloGuideAppDelegate.h */,
+				BF4B342913B8DD540018408C /* VeloGuideAppDelegate.m */,
+				BFC836FB13C27B0800E53E79 /* Legal.h */,
+				BFC836FC13C27B0800E53E79 /* Legal.m */,
+				BFC836FD13C27B0800E53E79 /* Legal.xib */,
+				BFCDBB631228282F00DD17DC /* MapView.h */,
+				BFCDBB641228282F00DD17DC /* MapView.m */,
+				BFCDBB651228282F00DD17DC /* MapView.xib */,
+				BFFE9C4E12403D6700016C15 /* Legend.h */,
+				BFFE9C4F12403D6700016C15 /* Legend.m */,
+				BFFE9C5012403D6700016C15 /* Legend.xib */,
+				BFFE9C651240467A00016C15 /* Safety.h */,
+				BFFE9C661240467A00016C15 /* Safety.m */,
+				BFFE9C671240467A00016C15 /* Safety.xib */,
+				BF75894412492AEE00EF461B /* About.h */,
+				BF75894512492AEE00EF461B /* About.m */,
+				BF75894612492AEE00EF461B /* About.xib */,
+				BF75895712493FAB00EF461B /* MyTabBarController.h */,
+				BF75895812493FAB00EF461B /* MyTabBarController.m */,
+				BF33FE67134925E7004EA381 /* KMLParser.h */,
+				BF33FE68134925F4004EA381 /* KMLParser.m */,
+				BF9DBB44150C02A600E7A552 /* Placemark.h */,
+				BF9DBB45150C02A700E7A552 /* Placemark.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF33FE4F1348D199004EA381 /* VeloGuide.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* BikeThere-Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				BF9BB950174434FB0093CEE9 /* Default-568h@2x.png */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = "BikeThere-Tabs";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AB4B0D9B1048005BE974 /* VeloGuide_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BF2A5EFD14EB01BE0064CBD4 /* iTunesArtwork.png */,
+				BF59159813C2396F007B6208 /* parking-icon.png */,
+				BFC836F513C2752700E53E79 /* legal-nav.png */,
+				BFC836EA13C2642500E53E79 /* law.png */,
+				BF59157D13C235D5007B6208 /* kml */,
+				BF8D4FD513BB7E0E00E02126 /* Default@2x.png */,
+				BF59157B13C2354F007B6208 /* bicycle_icon.png */,
+				BF8D4FD313BB7DFB00E02126 /* Default.png */,
+				BF8D4FD113BB7D9900E02126 /* Icon.png */,
+				BF9DBB42150BD81700E7A552 /* poi.png */,
+				BF8D4FCF13BB7D9000E02126 /* Icon@2x.png */,
+				BF7588BD1249263100EF461B /* Html */,
+				BF7F59EE1241360B00890B70 /* bikeicon.png */,
+				BF7F59F01241361500890B70 /* icon_legend.png */,
+				BF29CC7312AEFDC400719974 /* Locate.png */,
+				BF7F59EC124135E500890B70 /* helmet.png */,
+				BF877244122ED30A00DF2212 /* marker.png */,
+				8D1107310486CEB800E47090 /* veloguide-Info.plist */,
+				BFB570F213B952B8006F78B2 /* veloguide.xcdatamodeld */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF9DBB40150978D800E7A552 /* Twitter.framework */,
+				BF9DBB3E150978CC00E7A552 /* Accounts.framework */,
+				BF33FE511348D3FD004EA381 /* MapKit.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765070DF74369002DB57D /* CoreGraphics.framework */,
+				3B85125110CF0CCD004F4F1F /* QuartzCore.framework */,
+				3B7F19C010D1BE7E00AFD7FB /* CoreLocation.framework */,
+				AF699B9B11D1702000DC3951 /* libz.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF59157D13C235D5007B6208 /* kml */ = {
+			isa = PBXGroup;
+			children = (
+				BFD6FF1A13D4A21A00B4CCDA /* sf */,
+				BF59157E13C235D5007B6208 /* chicago */,
+				BF59158513C235D5007B6208 /* nyc */,
+				BF59158913C235D5007B6208 /* pdx */,
+			);
+			path = kml;
+			sourceTree = "<group>";
+		};
+		BF59157E13C235D5007B6208 /* chicago */ = {
+			isa = PBXGroup;
+			children = (
+				BF14E4BC14241A43001C333C /* Chicago-bikeroutes.kml */,
+				BFF7EABA13D3AB8B00F369F0 /* Chicago-Bike-Parking.kml */,
+				BF5CF13213D5E565007CA0F5 /* chicago-bike-law.html */,
+			);
+			path = chicago;
+			sourceTree = "<group>";
+		};
+		BF59158513C235D5007B6208 /* nyc */ = {
+			isa = PBXGroup;
+			children = (
+				BFF7EABC13D3ABA100F369F0 /* NYC-Bike-Parking.kml */,
+				BFF7EABD13D3ABA100F369F0 /* NYC-Bike2.kml */,
+				BF59158613C235D5007B6208 /* NYC-Bike.kml */,
+				BF5CF13813D5EB55007CA0F5 /* nyc-bike-law.html */,
+			);
+			path = nyc;
+			sourceTree = "<group>";
+		};
+		BF59158913C235D5007B6208 /* pdx */ = {
+			isa = PBXGroup;
+			children = (
+				BF7FD51513D48FAE00127FE0 /* PDXBIKE3.kml */,
+				BFC836F113C26BEE00E53E79 /* pdx-bike-law.html */,
+				BF59158A13C235D5007B6208 /* bike_parking.kml */,
+			);
+			path = pdx;
+			sourceTree = "<group>";
+		};
+		BF7588BD1249263100EF461B /* Html */ = {
+			isa = PBXGroup;
+			children = (
+				BFCA670D13C3877F001FC69C /* searchWebView.js */,
+				BF963B0012C96D4C00CA0A28 /* veloguide-legend.html */,
+				BF963B0312C96D6600CA0A28 /* veloguide-safety_v2.html */,
+				BF7588BE1249263100EF461B /* veloguide-about.html */,
+				BF5CF13413D5E8D4007CA0F5 /* veloguide-legal.html */,
+				BF7588C11249263100EF461B /* images */,
+			);
+			path = Html;
+			sourceTree = "<group>";
+		};
+		BF7588C11249263100EF461B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				BF4B84B413944B82001A54C1 /* veloguide.png */,
+				BF9A072E12ED0F6F00BE06C6 /* 2si_against_traffic.png */,
+				BF9A072F12ED0F6F00BE06C6 /* 2si_night_ride.png */,
+				BF9A073012ED0F6F00BE06C6 /* 2si_turning_left.png */,
+				BF9A073212ED0F6F00BE06C6 /* dotted-line.gif */,
+				BF9A073312ED0F6F00BE06C6 /* legend-bike-and-ped-trail.png */,
+				BF9A073412ED0F6F00BE06C6 /* legend-bike-lane-busy-street.png */,
+				BF9A073512ED0F6F00BE06C6 /* legend-bike-shop.png */,
+				BF9A073612ED0F6F00BE06C6 /* legend-caution-area.png */,
+				BF9A073712ED0F6F00BE06C6 /* legend-elev-marker.png */,
+				BF9A073812ED0F6F00BE06C6 /* legend-high-traffic-street.png */,
+				BF9A073912ED0F6F00BE06C6 /* legend-light-rail.png */,
+				BF9A073A12ED0F6F00BE06C6 /* legend-low-traffic-street.png */,
+				BF9A073B12ED0F6F00BE06C6 /* legend-main-bikeway.png */,
+				BF9A073C12ED0F6F00BE06C6 /* legend-no-bike-lane-mod-street.png */,
+				BF9A073D12ED0F6F00BE06C6 /* legend-one-way.png */,
+				BF9A073E12ED0F6F00BE06C6 /* legend-park.png */,
+				BF9A073F12ED0F6F00BE06C6 /* legend-RR-tracks.png */,
+				BF9A074012ED0F6F00BE06C6 /* legend-transit-center.png */,
+				BF9A074112ED0F6F00BE06C6 /* legend-uphill.png */,
+				BF9A074312ED0F6F00BE06C6 /* si_avoid_hazard.png */,
+				BF9A074412ED0F6F00BE06C6 /* si_cycletrack.png */,
+				BF9A074512ED0F6F00BE06C6 /* si_detection.png */,
+				BF9A074612ED0F6F00BE06C6 /* si_hand-signals.png */,
+				BF9A074712ED0F6F00BE06C6 /* si_helmet.png */,
+				BF9A074812ED0F6F00BE06C6 /* si_middle_of_lane.png */,
+				BF9A074912ED0F6F00BE06C6 /* si_obey_signs.png */,
+				BF9A074A12ED0F6F00BE06C6 /* si_scan_behind.png */,
+				BF9A074B12ED0F6F00BE06C6 /* si_sidewalks.png */,
+				BF9A074C12ED0F6F00BE06C6 /* si_watch_pullout.png */,
+				BF9A074D12ED0F6F00BE06C6 /* si_weaver.png */,
+				BF9A074E12ED0F6F00BE06C6 /* si-BikeBoxes.png */,
+				BF9A074F12ED0F6F00BE06C6 /* si-pass-right.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		BFD6FF1A13D4A21A00B4CCDA /* sf */ = {
+			isa = PBXGroup;
+			children = (
+				BFD6FF1B13D4A21A00B4CCDA /* SF-Bike-Routes.kml */,
+				BF5CF13613D5EB42007CA0F5 /* sf-bike-law.html */,
+			);
+			path = sf;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* VeloGuide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "VeloGuide" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VeloGuide;
+			productName = "BikeThere-Tabs";
+			productReference = BF33FE4F1348D199004EA381 /* VeloGuide.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "VeloGuide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* BikeThere-Tabs */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* VeloGuide */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
+				BFCDBB671228282F00DD17DC /* MapView.xib in Resources */,
+				BF877245122ED30A00DF2212 /* marker.png in Resources */,
+				BFFE9C5212403D6700016C15 /* Legend.xib in Resources */,
+				BFFE9C691240467A00016C15 /* Safety.xib in Resources */,
+				BF7F59ED124135E500890B70 /* helmet.png in Resources */,
+				BF7F59EF1241360B00890B70 /* bikeicon.png in Resources */,
+				BF7F59F11241361500890B70 /* icon_legend.png in Resources */,
+				BF7588E41249263100EF461B /* veloguide-about.html in Resources */,
+				BF75894812492AEE00EF461B /* About.xib in Resources */,
+				BF29CC7412AEFDC400719974 /* Locate.png in Resources */,
+				BF963B0112C96D4C00CA0A28 /* veloguide-legend.html in Resources */,
+				BF963B0412C96D6600CA0A28 /* veloguide-safety_v2.html in Resources */,
+				BF9A075012ED0F6F00BE06C6 /* 2si_against_traffic.png in Resources */,
+				BF9A075112ED0F6F00BE06C6 /* 2si_night_ride.png in Resources */,
+				BF9A075212ED0F6F00BE06C6 /* 2si_turning_left.png in Resources */,
+				BF9A075412ED0F6F00BE06C6 /* dotted-line.gif in Resources */,
+				BF9A075512ED0F6F00BE06C6 /* legend-bike-and-ped-trail.png in Resources */,
+				BF9A075612ED0F6F00BE06C6 /* legend-bike-lane-busy-street.png in Resources */,
+				BF9A075712ED0F6F00BE06C6 /* legend-bike-shop.png in Resources */,
+				BF9A075812ED0F6F00BE06C6 /* legend-caution-area.png in Resources */,
+				BF9A075912ED0F6F00BE06C6 /* legend-elev-marker.png in Resources */,
+				BF9A075A12ED0F6F00BE06C6 /* legend-high-traffic-street.png in Resources */,
+				BF9A075B12ED0F6F00BE06C6 /* legend-light-rail.png in Resources */,
+				BF9A075C12ED0F6F00BE06C6 /* legend-low-traffic-street.png in Resources */,
+				BF9A075D12ED0F6F00BE06C6 /* legend-main-bikeway.png in Resources */,
+				BF9A075E12ED0F6F00BE06C6 /* legend-no-bike-lane-mod-street.png in Resources */,
+				BF9A075F12ED0F6F00BE06C6 /* legend-one-way.png in Resources */,
+				BF9A076012ED0F6F00BE06C6 /* legend-park.png in Resources */,
+				BF9A076112ED0F6F00BE06C6 /* legend-RR-tracks.png in Resources */,
+				BF9A076212ED0F6F00BE06C6 /* legend-transit-center.png in Resources */,
+				BF9A076312ED0F6F00BE06C6 /* legend-uphill.png in Resources */,
+				BF9A076512ED0F6F00BE06C6 /* si_avoid_hazard.png in Resources */,
+				BF9A076612ED0F6F00BE06C6 /* si_cycletrack.png in Resources */,
+				BF9A076712ED0F6F00BE06C6 /* si_detection.png in Resources */,
+				BF9A076812ED0F6F00BE06C6 /* si_hand-signals.png in Resources */,
+				BF9A076912ED0F6F00BE06C6 /* si_helmet.png in Resources */,
+				BF9A076A12ED0F6F00BE06C6 /* si_middle_of_lane.png in Resources */,
+				BF9A076B12ED0F6F00BE06C6 /* si_obey_signs.png in Resources */,
+				BF9A076C12ED0F6F00BE06C6 /* si_scan_behind.png in Resources */,
+				BF9A076D12ED0F6F00BE06C6 /* si_sidewalks.png in Resources */,
+				BF9A076E12ED0F6F00BE06C6 /* si_watch_pullout.png in Resources */,
+				BF9A076F12ED0F6F00BE06C6 /* si_weaver.png in Resources */,
+				BF9A077012ED0F6F00BE06C6 /* si-BikeBoxes.png in Resources */,
+				BF9A077112ED0F6F00BE06C6 /* si-pass-right.png in Resources */,
+				BF4B84B513944B82001A54C1 /* veloguide.png in Resources */,
+				BF8D4FD013BB7D9000E02126 /* Icon@2x.png in Resources */,
+				BF8D4FD213BB7D9900E02126 /* Icon.png in Resources */,
+				BF8D4FD413BB7DFB00E02126 /* Default.png in Resources */,
+				BF8D4FD613BB7E0E00E02126 /* Default@2x.png in Resources */,
+				BF59157C13C2354F007B6208 /* bicycle_icon.png in Resources */,
+				BF59159213C235D5007B6208 /* NYC-Bike.kml in Resources */,
+				BF59159513C235D5007B6208 /* bike_parking.kml in Resources */,
+				BF59159913C2396F007B6208 /* parking-icon.png in Resources */,
+				BFC836EB13C2642500E53E79 /* law.png in Resources */,
+				BFC836F213C26BEE00E53E79 /* pdx-bike-law.html in Resources */,
+				BFC836F613C2752700E53E79 /* legal-nav.png in Resources */,
+				BFC836FF13C27B0900E53E79 /* Legal.xib in Resources */,
+				BFF7EABB13D3AB8B00F369F0 /* Chicago-Bike-Parking.kml in Resources */,
+				BFF7EABE13D3ABA100F369F0 /* NYC-Bike-Parking.kml in Resources */,
+				BFF7EABF13D3ABA100F369F0 /* NYC-Bike2.kml in Resources */,
+				BF7FD51613D48FAE00127FE0 /* PDXBIKE3.kml in Resources */,
+				BFD6FF1C13D4A21A00B4CCDA /* SF-Bike-Routes.kml in Resources */,
+				BF5CF13313D5E565007CA0F5 /* chicago-bike-law.html in Resources */,
+				BF5CF13513D5E8D4007CA0F5 /* veloguide-legal.html in Resources */,
+				BFCA670E13C3877F001FC69C /* searchWebView.js in Resources */,
+				BF5CF13713D5EB42007CA0F5 /* sf-bike-law.html in Resources */,
+				BF5CF13913D5EB55007CA0F5 /* nyc-bike-law.html in Resources */,
+				BF14E4BD14241A43001C333C /* Chicago-bikeroutes.kml in Resources */,
+				BF2A5EFE14EB01BE0064CBD4 /* iTunesArtwork.png in Resources */,
+				BF9DBB43150BD81700E7A552 /* poi.png in Resources */,
+				BF9BB951174434FB0093CEE9 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				BFCDBB661228282F00DD17DC /* MapView.m in Sources */,
+				BFFE9C5112403D6700016C15 /* Legend.m in Sources */,
+				BFFE9C681240467A00016C15 /* Safety.m in Sources */,
+				BF75894712492AEE00EF461B /* About.m in Sources */,
+				BF75895912493FAB00EF461B /* MyTabBarController.m in Sources */,
+				BF33FE69134925F4004EA381 /* KMLParser.m in Sources */,
+				BF4B342A13B8DD540018408C /* VeloGuideAppDelegate.m in Sources */,
+				BFB570F413B952B8006F78B2 /* veloguide.xcdatamodeld in Sources */,
+				BFC836FE13C27B0900E53E79 /* Legal.m in Sources */,
+				BF9DBB46150C02A700E7A552 /* Placemark.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_STYLE = Debug;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos4.2]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = VeloGuide_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "VeloGuide-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = VeloGuide;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos4.2]" = "";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_STYLE = Release;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Greg Lind";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Greg Lind";
+				"CODE_SIGN_RESOURCE_RULES_PATH[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = VeloGuide_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "VeloGuide-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = VeloGuide;
+				PROVISIONING_PROFILE = "A0BEF5CA-AEBB-4FB7-8B34-DE719BA9EE29";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A0BEF5CA-AEBB-4FB7-8B34-DE719BA9EE29";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		BFD10B4714EAEF2C00EA98A3 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUILD_STYLE = Release;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Greg Lind";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Greg Lind";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "454F5926-0F90-4482-B071-6100967D4326";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "454F5926-0F90-4482-B071-6100967D4326";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		BFD10B4814EAEF2C00EA98A3 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_STYLE = Release;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Greg Lind";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Greg Lind";
+				"CODE_SIGN_RESOURCE_RULES_PATH[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = VeloGuide_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "VeloGuide-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = VeloGuide;
+				PROVISIONING_PROFILE = "A0BEF5CA-AEBB-4FB7-8B34-DE719BA9EE29";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A0BEF5CA-AEBB-4FB7-8B34-DE719BA9EE29";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ADDITIONAL_SDKS = "";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUILD_STYLE = Debug;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos4.2]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_EXCEPTIONS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos4.2]" = "";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "iOS.sdk/usr/local/include/**";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUILD_STYLE = Release;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "VeloGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				BFD10B4814EAEF2C00EA98A3 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "VeloGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				BFD10B4714EAEF2C00EA98A3 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BFB570F213B952B8006F78B2 /* veloguide.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BFB570F313B952B8006F78B2 /* veloguide.xcdatamodel */,
+			);
+			currentVersion = BFB570F313B952B8006F78B2 /* veloguide.xcdatamodel */;
+			path = veloguide.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,128 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* VeloGuide */ = {
+		activeExec = 0;
+		executables = (
+			DE0F67AE12B0014300622EF6 /* BikeThere-Tabs */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = DE0F67AE12B0014300622EF6 /* BikeThere-Tabs */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* VeloGuide */;
+		codeSenseManager = DE0F67BE12B0015C00622EF6 /* Code sense */;
+		executables = (
+			DE0F67AE12B0014300622EF6 /* BikeThere-Tabs */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					654,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 335376958;
+			PBXWorkspaceStateSaveDate = 335376958;
+		};
+		perUserProjectItems = {
+			DEAAF89F12B2BC40006051B9 /* PBXTextBookmark */ = DEAAF89F12B2BC40006051B9 /* PBXTextBookmark */;
+			DEBD0C4E13D4F27200C001D9 /* PBXTextBookmark */ = DEBD0C4E13D4F27200C001D9 /* PBXTextBookmark */;
+		};
+		sourceControlManager = DE0F67BD12B0015C00622EF6 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	BFCDBB631228282F00DD17DC /* MapView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {832, 468}}";
+			sepNavSelRange = "{50, 1}";
+			sepNavVisRange = "{0, 1187}";
+		};
+	};
+	BFCDBB641228282F00DD17DC /* MapView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {929, 3510}}";
+			sepNavSelRange = "{6463, 0}";
+			sepNavVisRange = "{5298, 1697}";
+			sepNavWindowFrame = "{{872, 461}, {750, 558}}";
+		};
+	};
+	DE0F67AE12B0014300622EF6 /* BikeThere-Tabs */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "BikeThere-Tabs";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	DE0F67BD12B0015C00622EF6 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	DE0F67BE12B0015C00622EF6 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	DEAAF89F12B2BC40006051B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BFCDBB631228282F00DD17DC /* MapView.h */;
+		name = "MapView.h: 4";
+		rLen = 1;
+		rLoc = 50;
+		rType = 0;
+		vrLen = 1090;
+		vrLoc = 0;
+	};
+	DEBD0C4E13D4F27200C001D9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BFCDBB641228282F00DD17DC /* MapView.m */;
+		name = "MapView.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 418;
+		vrLoc = 0;
+	};
+}

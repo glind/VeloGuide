@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* BikeThere_TabsAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 372}}";
+			sepNavSelRange = "{361, 59}";
+			sepNavVisRange = "{0, 560}";
+			sepNavWindowFrame = "{{0, 41}, {800, 537}}";
+		};
+	};
+	1D3623250D0F684500981E51 /* BikeThere_TabsAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {880, 728}}";
+			sepNavSelRange = "{246, 0}";
+			sepNavVisRange = "{0, 747}";
+			sepNavWindowFrame = "{{0, 41}, {800, 537}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* BikeThere-Tabs */ = {
+		activeExec = 0;
+		executables = (
+			BFAA45FB121F3D7700E7CEF2 /* BikeThere-Tabs */,
+		);
+	};
+	282CCBFD0DB6C98000C4EA27 /* FirstView.xib */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = file.xib;
+		name = FirstView.xib;
+		path = "/Users/lind/Dropbox/iOS/BikeThere-Tabs/FirstView.xib";
+		sourceTree = "<absolute>";
+	};
+	28A0AB4B0D9B1048005BE974 /* BikeThere_Tabs_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1203, 459}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 197}";
+			sepNavWindowFrame = "{{130, 146}, {1093, 772}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeArchitecturePreference = armv6;
+		activeBuildConfigurationName = Debug;
+		activeExecutable = BFAA45FB121F3D7700E7CEF2 /* BikeThere-Tabs */;
+		activeSDKPreference = iphonesimulator4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* BikeThere-Tabs */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* BikeThere-Tabs */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = BFAA460B121F3D9700E7CEF2 /* Code sense */;
+		executables = (
+			BFAA45FB121F3D7700E7CEF2 /* BikeThere-Tabs */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					692,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					885,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 318079400;
+			PBXWorkspaceStateSaveDate = 318079400;
+		};
+		perUserProjectItems = {
+			BF18C81812BD897C00700F8E /* PBXTextBookmark */ = BF18C81812BD897C00700F8E /* PBXTextBookmark */;
+			BF4AB76912DA91BD005FEEA7 /* PBXTextBookmark */ = BF4AB76912DA91BD005FEEA7 /* PBXTextBookmark */;
+			BF4AB7A712DA9644005FEEA7 /* PBXTextBookmark */ = BF4AB7A712DA9644005FEEA7 /* PBXTextBookmark */;
+			BF4AB7A812DA9644005FEEA7 /* PBXTextBookmark */ = BF4AB7A812DA9644005FEEA7 /* PBXTextBookmark */;
+			BF61C389123AB100006D533D /* PBXTextBookmark */ = BF61C389123AB100006D533D /* PBXTextBookmark */;
+			BF68D8171228115300EC66D9 /* PBXTextBookmark */ = BF68D8171228115300EC66D9 /* PBXTextBookmark */;
+			BF76634212AEF3E800F85A26 /* PBXBookmark */ = BF76634212AEF3E800F85A26 /* PBXBookmark */;
+			BF7F59FB1241363E00890B70 /* PBXBookmark */ = BF7F59FB1241363E00890B70 /* PBXBookmark */;
+			BF844292123EDFD10020BFAB /* PBXTextBookmark */ = BF844292123EDFD10020BFAB /* PBXTextBookmark */;
+			BF963B0A12C96D7F00CA0A28 /* PBXTextBookmark */ = BF963B0A12C96D7F00CA0A28 /* PBXTextBookmark */;
+			BF963B0B12C96D7F00CA0A28 /* PBXTextBookmark */ = BF963B0B12C96D7F00CA0A28 /* PBXTextBookmark */;
+			BF963B1B12CA906300CA0A28 /* PBXTextBookmark */ = BF963B1B12CA906300CA0A28 /* PBXTextBookmark */;
+			BF963B1C12CA906300CA0A28 /* PBXBookmark */ = BF963B1C12CA906300CA0A28 /* PBXBookmark */;
+			BFA1B20A12F582FD0025CD6B /* PBXTextBookmark */ = BFA1B20A12F582FD0025CD6B /* PBXTextBookmark */;
+			BFA1B20B12F582FD0025CD6B /* PBXTextBookmark */ = BFA1B20B12F582FD0025CD6B /* PBXTextBookmark */;
+			BFA1B20C12F582FD0025CD6B /* PBXTextBookmark */ = BFA1B20C12F582FD0025CD6B /* PBXTextBookmark */;
+			BFA1B20D12F582FD0025CD6B /* PBXTextBookmark */ = BFA1B20D12F582FD0025CD6B /* PBXTextBookmark */;
+			BFA1B20E12F582FD0025CD6B /* PBXTextBookmark */ = BFA1B20E12F582FD0025CD6B /* PBXTextBookmark */;
+			BFA1B20F12F582FD0025CD6B /* PBXBookmark */ = BFA1B20F12F582FD0025CD6B /* PBXBookmark */;
+			BFA1B21012F582FD0025CD6B /* PBXTextBookmark */ = BFA1B21012F582FD0025CD6B /* PBXTextBookmark */;
+			BFCDBB781228299600DD17DC /* PBXTextBookmark */ = BFCDBB781228299600DD17DC /* PBXTextBookmark */;
+			BFEC0D8212F0470C00934C7B /* PBXTextBookmark */ = BFEC0D8212F0470C00934C7B /* PBXTextBookmark */;
+			BFFE9C97124122A600016C15 /* PlistBookmark */ = BFFE9C97124122A600016C15 /* PlistBookmark */;
+		};
+		sourceControlManager = BFAA460A121F3D9700E7CEF2 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 372}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 349}";
+			sepNavWindowFrame = "{{202, 202}, {800, 538}}";
+		};
+	};
+	8D1107310486CEB800E47090 /* BikeThere_Tabs-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{176, 104}, {1093, 772}}";
+		};
+	};
+	BF18C81812BD897C00700F8E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BFFE9C4F12403D6700016C15 /* Legend.m */;
+		name = "Legend.m: 25";
+		rLen = 0;
+		rLoc = 591;
+		rType = 0;
+		vrLen = 717;
+		vrLoc = 291;
+	};
+	BF4AB76912DA91BD005FEEA7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BF75894412492AEE00EF461B /* About.h */;
+		name = "About.h: 12";
+		rLen = 146;
+		rLoc = 151;
+		rType = 0;
+		vrLen = 298;
+		vrLoc = 0;
+	};
+	BF4AB7A712DA9644005FEEA7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BF75894512492AEE00EF461B /* About.m */;
+		name = "About.m: 1";
+		rLen = 1020;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 786;
+		vrLoc = 124;
+	};
+	BF4AB7A812DA9644005FEEA7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BFFE9C4E12403D6700016C15 /* Legend.h */;
+		name = "Legend.h: 12";
+		rLen = 136;
+		rLoc = 152;
+		rType = 0;
+		vrLen = 288;
+		vrLoc = 0;
+	};
+	BF5131C912230F7700B6201D /* PDFMap.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = PDFMap.m;
+		path = "/Users/lind/Dropbox/iOS/BikeThere-Tabs/Classes/PDFMap.m";
+		sourceTree = "<absolute>";
+	};
+	BF61C389123AB100006D533D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BF5131C912230F7700B6201D /* PDFMap.m */;
+		name = "PDFMap.m: 20";
+		rLen = 0;
+		rLoc = 336;
+		rType = 0;
+		vrLen = 765;
+		vrLoc = 38;
+	};
+	BF68D8171228115300EC66D9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 282CCBFD0DB6C98000C4EA27 /* FirstView.xib */;
+		name = "FirstView.xib: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1314;
+		vrLoc = 10251;
+	};
+	BF7588BE1249263100EF461B /* bike-there-about.html */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1317, 858}}";
+			sepNavSelRange = "{1213, 0}";
+			sepNavVisRange = "{506, 1194}";
+			sepNavWindowFrame = "{{38, 100}, {1376, 778}}";
+		};
+	};
+	BF75894412492AEE00EF461B /* About.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 414}}";
+			sepNavSelRange = "{151, 146}";
+			sepNavVisRange = "{0, 298}";
+		};
+	};
+	BF75894512492AEE00EF461B /* About.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 663}}";
+			sepNavSelRange = "{0, 1020}";
+			sepNavVisRange = "{124, 786}";
+		};
+	};
+	BF75895712493FAB00EF461B /* MyTabBarController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 372}}";
+			sepNavSelRange = "{224, 0}";
+			sepNavVisRange = "{0, 225}";
+		};
+	};
+	BF75895812493FAB00EF461B /* MyTabBarController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 372}}";
+			sepNavSelRange = "{216, 38}";
+			sepNavVisRange = "{0, 323}";
+			sepNavWindowFrame = "{{130, 140}, {1376, 778}}";
+		};
+	};
+	BF76634212AEF3E800F85A26 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = BF7F59EC124135E500890B70 /* helmet.png */;
+	};
+	BF7F59FB1241363E00890B70 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = BF7F59F01241361500890B70 /* icon_legend.png */;
+	};
+	BF844280123EDCFA0020BFAB /* Legend2.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = Legend2.m;
+		path = "/Users/lind/Dropbox/iOS/BikeThere-Tabs/Classes/Legend2.m";
+		sourceTree = "<absolute>";
+	};
+	BF844292123EDFD10020BFAB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BF844280123EDCFA0020BFAB /* Legend2.m */;
+		name = "Legend2.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 642;
+		vrLoc = 0;
+	};
+	BF963B0012C96D4C00CA0A28 /* bike-there-legend.html */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 3692}}";
+			sepNavSelRange = "{265, 6}";
+			sepNavVisRange = "{0, 677}";
+		};
+	};
+	BF963B0312C96D6600CA0A28 /* bike-there-safety_v2.html */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1202, 4290}}";
+			sepNavSelRange = "{1517, 0}";
+			sepNavVisRange = "{0, 994}";
+			sepNavWindowFrame = "{{15, 61}, {1139, 812}}";
+		};
+	};
+	BF963B0A12C96D7F00CA0A28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BF963B0312C96D6600CA0A28 /* bike-there-safety_v2.html */;
+		name = "bike-there-safety_v2.html: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 681;
+		vrLoc = 0;
+	};
+	BF963B0B12C96D7F00CA0A28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BFFE9C651240467A00016C15 /* Safety.h */;
+		name = "Safety.h: 16";
+		rLen = 64;
+		rLoc = 230;
+		rType = 0;
+		vrLen = 301;
+		vrLoc = 0;
+	};
+	BF963B1B12CA906300CA0A28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BFFE9C661240467A00016C15 /* Safety.m */;
+		name = "Safety.m: 21";
+		rLen = 0;
+		rLoc = 447;
+		rType = 0;
+		vrLen = 612;
+		vrLoc = 0;
+	};
+	BF963B1C12CA906300CA0A28 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = BF7F59EE1241360B00890B70 /* bikeicon.png */;
+	};
+	BFA1B20A12F582FD0025CD6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BFCDBB641228282F00DD17DC /* MapView.m */;
+		name = "MapView.m: 104";
+		rLen = 1314;
+		rLoc = 3383;
+		rType = 0;
+		vrLen = 890;
+		vrLoc = 3275;
+	};
+	BFA1B20B12F582FD0025CD6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* BikeThere_TabsAppDelegate.m */;
+		name = "BikeThere_TabsAppDelegate.m: 13";
+		rLen = 0;
+		rLoc = 246;
+		rType = 0;
+		vrLen = 747;
+		vrLoc = 0;
+	};
+	BFA1B20C12F582FD0025CD6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* BikeThere_TabsAppDelegate.h */;
+		name = "BikeThere_TabsAppDelegate.h: 17";
+		rLen = 59;
+		rLoc = 361;
+		rType = 0;
+		vrLen = 560;
+		vrLoc = 0;
+	};
+	BFA1B20D12F582FD0025CD6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BF75895712493FAB00EF461B /* MyTabBarController.h */;
+		name = "MyTabBarController.h: 14";
+		rLen = 0;
+		rLoc = 224;
+		rType = 0;
+		vrLen = 225;
+		vrLoc = 0;
+	};
+	BFA1B20E12F582FD0025CD6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BF75895812493FAB00EF461B /* MyTabBarController.m */;
+		name = "MyTabBarController.m: 15";
+		rLen = 38;
+		rLoc = 216;
+		rType = 0;
+		vrLen = 323;
+		vrLoc = 0;
+	};
+	BFA1B20F12F582FD0025CD6B /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+	};
+	BFA1B21012F582FD0025CD6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 349;
+		vrLoc = 0;
+	};
+	BFAA45FB121F3D7700E7CEF2 /* BikeThere-Tabs */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "BikeThere-Tabs";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	BFAA460A121F3D9700E7CEF2 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	BFAA460B121F3D9700E7CEF2 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	BFCDBB631228282F00DD17DC /* MapView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 494}}";
+			sepNavSelRange = "{946, 8}";
+			sepNavVisRange = "{29, 1146}";
+			sepNavWindowFrame = "{{150, 169}, {1325, 724}}";
+		};
+	};
+	BFCDBB641228282F00DD17DC /* MapView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 2444}}";
+			sepNavSelRange = "{3383, 1314}";
+			sepNavVisRange = "{3275, 890}";
+			sepNavWindowFrame = "{{235, 260}, {1189, 741}}";
+		};
+	};
+	BFCDBB781228299600DD17DC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28A0AB4B0D9B1048005BE974 /* BikeThere_Tabs_Prefix.pch */;
+		name = "BikeThere_Tabs_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 197;
+		vrLoc = 0;
+	};
+	BFEC0D8212F0470C00934C7B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BFCDBB631228282F00DD17DC /* MapView.h */;
+		name = "MapView.h: 29";
+		rLen = 8;
+		rLoc = 946;
+		rType = 0;
+		vrLen = 1146;
+		vrLoc = 29;
+	};
+	BFFE9C4E12403D6700016C15 /* Legend.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 381}}";
+			sepNavSelRange = "{152, 136}";
+			sepNavVisRange = "{0, 288}";
+			sepNavWindowFrame = "{{61, 203}, {1376, 778}}";
+		};
+	};
+	BFFE9C4F12403D6700016C15 /* Legend.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1138, 650}}";
+			sepNavSelRange = "{591, 0}";
+			sepNavVisRange = "{291, 717}";
+			sepNavWindowFrame = "{{0, 41}, {800, 537}}";
+		};
+	};
+	BFFE9C651240467A00016C15 /* Safety.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1138, 386}}";
+			sepNavSelRange = "{230, 64}";
+			sepNavVisRange = "{0, 301}";
+			sepNavWindowFrame = "{{795, -60}, {1376, 778}}";
+		};
+	};
+	BFFE9C661240467A00016C15 /* Safety.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1138, 624}}";
+			sepNavSelRange = "{447, 0}";
+			sepNavVisRange = "{0, 612}";
+			sepNavWindowFrame = "{{815, 177}, {1376, 778}}";
+		};
+	};
+	BFFE9C97124122A600016C15 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* BikeThere_Tabs-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/lind/Dropbox/iOS/BikeThere-Tabs/BikeThere_Tabs-Info.plist";
+		rLen = 0;
+		rLoc = 4294967295;
+	};
+}

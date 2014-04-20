@@ -1,0 +1,76 @@
+<kml xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://earth.google.com/kml/2.2">
+  <Document>
+    <name>GeoCommons Data :: tag:racks</name>
+    <atom:link rel="self" type="application/vnd.google-earth.kml+xml" href="http://geocommons.com/search.kml?model=Map&amp;order=descending&amp;page=1&amp;query=tag%3Aracks&amp;sort=created"/>
+    <atom:link rel="alternate" type="application/atom+xml" href="http://geocommons.com/search.atom?model=Map&amp;order=descending&amp;page=1&amp;query=tag%3Aracks&amp;sort=created"/>
+    <Style id="mapBounds">
+      <PolyStyle>
+        <color>77209600</color>
+      </PolyStyle>
+      <BalloonStyle>
+        <text>
+          <![CDATA[<h4>$[name]</h4>
+    <p>$[description]</p>
+    <p>Uploaded by $[owner] on $[created_at]</p>
+    <ul>
+      <li><a href="$[url]">View in GeoCommons</a></li>
+      <li><a href="$[kml_url]">Load Data</a></li>
+    </ul>
+    ]]>
+        </text>
+      </BalloonStyle>
+    </Style>
+    <Style id="dataBounds">
+      <PolyStyle>
+        <color>77F4CC77</color>
+      </PolyStyle>
+      <BalloonStyle>
+        <text>
+          <![CDATA[<h4>$[name]</h4>
+    <p>$[description]</p>
+    <p>Uploaded by $[owner] on $[created_at]</p>
+    <ul>
+      <li><a href="$[url]">View in GeoCommons</a></li>
+      <li><a href="$[kml_url]">Load Data</a></li>
+    </ul>
+    ]]>
+        </text>
+      </BalloonStyle>
+    </Style>
+    <Placemark id="geocommons:Map:Map:61175">
+      <name>Downtown Seattle Bike Racks</name>
+      <styleUrl>dataBounds</styleUrl>
+      <description>Bicycle racks owned and maintained by SDOT. Location of bicycle racks owned and maintained by SDOT in the GIS for cartographic, analysis, and tracking purposes.</description>
+      <atom:link rel="alternate" type="text/html" href="http://geocommons.com/overlays/61175.html"/>
+      <atom:link rel="alternate" type="application/atom+xml" href="http://geocommons.com/overlays/61175.atom"/>
+      <TimeStamp>
+        <when>2011-03-30T05:26:57Z</when>
+      </TimeStamp>
+      <ExtendedData>
+        <Data name="url">
+          <DisplayName>url</DisplayName>
+          <value>http://geocommons.com/maps/61175.html</value>
+        </Data>
+        <Data name="kml_url">
+          <DisplayName>kml_url</DisplayName>
+          <value>http://geocommons.com/maps/61175.kml</value>
+        </Data>
+        <Data name="owner">
+          <DisplayName>Submitted By</DisplayName>
+          <value></value>
+        </Data>
+        <Data name="created_at">
+          <DisplayName>Created At</DisplayName>
+          <value>2011-03-30T05:26:57Z</value>
+        </Data>
+      </ExtendedData>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>-122.44961,47.58666 -122.215294,47.58666 -122.215294,47.64093 -122.44961,47.64093 -122.44961,47.58666</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
